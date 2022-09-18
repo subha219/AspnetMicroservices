@@ -1,0 +1,11 @@
+Docker Check
+docker ps
+
+install mongo
+docker pull mongo
+
+run mongo (docker run -d -p (#localport):(#portforward post) --name (#dockername) mongo)
+docker run -d -p 27017:27017 --name shopping-mongo mongo
+
+insert into docker container
+docker exec -it shopping-mongo /bin/bash
