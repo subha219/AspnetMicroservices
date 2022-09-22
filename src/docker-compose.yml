@@ -10,4 +10,4 @@ services:
       context: .
       dockerfile: Services\Catalog\CatalogAPI\Dockerfile
 volumes:
-  mongo_data:    
+  mongo_data:  
